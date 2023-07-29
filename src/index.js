@@ -2,6 +2,7 @@ import axios from "axios";
 import { fetchBreeds, fetchCatByBreed } from "./cat-api"
 import { Notify } from "notiflix";
 import SlimSelect from 'slim-select'
+import "slim-select/dist/slimselect.css"
 axios.defaults.headers.common["x-api-key"] = "live_RUHwtj6wJJPnfFBmE65IS36q7PEOstT78pnlAp1aYc9k725uK7f5gZKHvOy4kflo";
 const select = document.querySelector(".breed-select");
 const loader = document.querySelector(".loader");
