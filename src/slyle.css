@@ -1,13 +1,8 @@
-* {
-  box-sizing: border-box;
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-img {
-  display: flex;
-  max-width: 100%;
-}
-
 .breed-select {
+  font-size: 20px;
   margin: auto;
   max-width: 400px;
 }
@@ -16,10 +11,15 @@ img {
   gap: 20px;
   background-color: aliceblue;
 }
-.container {
-  display: flex;
-  width: 100%;
+p {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid seagreen;
+  border-radius: 8px;
+  margin-right: 20px;
+  line-height: 1.5;
 }
+
 h1 {
   font-weight: 700;
 }
@@ -40,6 +40,7 @@ h1 {
   height: 48px;
   color: #fff;
   margin: auto;
+  margin-top: 20px;
 }
 .loader:before,
 .loader:after {
