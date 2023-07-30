@@ -55,13 +55,12 @@ catInfo.classList.add("is-hidden");
 }
 function wrapperCatInfo(data) {
      const { url, breeds } = data[0];
-    // const { name, temperament, description } = breeds[0];
     const deskrCardCat = `<div class="container">
-  <img src="${url}" alt="${breeds[0].name}" width ="400px">
-</div>
+  <img src="${url}" alt="${breeds[0].name}" width = "400px">
+</div><div class= "box"
 <h1>${breeds[0].name}</h1>
 <p>${breeds[0].description}</p>
-<p><span class="">Temperament:</span>${breeds[0].temperament}</p>`
+<p>Temperament:${breeds[0].temperament}</p></div>`
 catInfo.innerHTML = deskrCardCat; 
     
 }
