@@ -30,6 +30,7 @@ h1 {
 .is-hidden {
   opacity: 0;
   visibility: hidden;
+  overflow: hidden;
 }
 
 .loader {
